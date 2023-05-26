@@ -1,6 +1,10 @@
-cypress/results/
-cypress/screenshots/
-cypress/videos/
-cypress/downloads/
 node_modules
+.DS_Store
 package-lock.json
+node_modules
+.DS_Store
+package-lock.json
+results
+screenshots
+videos
+mochawesome-report
