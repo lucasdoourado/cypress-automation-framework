@@ -3,7 +3,7 @@ describe("Test Contact Us form via WebdriverUni", () => {
   it("positive test cenario", () => {
     //cy.visit("https://webdriveruniversity.com/Contact-Us/contactus.html");
     cy.visit("https://webdriveruniversity.com/");
-    cy.get('#contact-us').invoke('removeAttr', 'target').click({force: true});
+    cy.get('#contact-us').invoke('removeAttr', 'target').click({ force: true });
     cy.get('[name="first_name"]').type("lucas");
     cy.get('[name="last_name"]').type("dourado");
     cy.get('[name="email"]').type("example@email.com");
@@ -16,7 +16,7 @@ describe("Test Contact Us form via WebdriverUni", () => {
   it("negative test cenario", () => {
     //cy.visit("https://webdriveruniversity.com/Contact-Us/contactus.html");
     cy.visit("https://webdriveruniversity.com/");
-    cy.get('#contact-us').invoke('removeAttr', 'target').click({force: true});
+    cy.get('#contact-us').invoke('removeAttr', 'target').click({ force: true });
     cy.get('[name="first_name"]').type("lucas");
     cy.get('[name="last_name"]').type("dourado");
     cy.get("textarea.feedback-input").type("how are you?");

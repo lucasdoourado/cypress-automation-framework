@@ -42,7 +42,7 @@ describe("aalias and invoke", () => {
             }
             itemsTotal += saleItemsPriceTotal;
             cy.log('Sale itens total price: ' + saleItemsPriceTotal);
-        }).then(()=>{
+        }).then(() => {
             cy.log('Total value of itens for sale: ' + itemsTotal);
             expect(itemsTotal).to.equal(656.5);
         });
