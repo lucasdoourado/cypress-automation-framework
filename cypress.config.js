@@ -12,7 +12,8 @@ module.exports = defineConfig({
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 120000,
     env: {
-      "first_name": "Giulia"
+      webdriveruni_homepage: "https://webdriveruniversity.com/",
+      first_name: "Giulia"
     }
 
   },
