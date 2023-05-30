@@ -11,9 +11,14 @@ module.exports = defineConfig({
     experimentalSessionAndOrigin: true,
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 120000,
-    screenshotOnRunFailure: true,
+    screenshotOnRunFailure: false,
+    videoUploadOnPasses: false,
     trashAssetsBeforeRuns: true,
     video: false,
+    reporter: 'cypress-multi-reporters',
+    reporterOptions: {
+      configFile: 'reporter-config.json',
+    },
     env: {
       webdriveruni_homepage: "https://webdriveruniversity.com/",
       first_name: "Giulia"
