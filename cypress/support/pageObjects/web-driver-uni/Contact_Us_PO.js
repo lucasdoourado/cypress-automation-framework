@@ -8,5 +8,4 @@ class Contact_Us_PO {
 		cy.get($selector).contains(textToLocate);
 	}
 }
-
 export default Contact_Us_PO;

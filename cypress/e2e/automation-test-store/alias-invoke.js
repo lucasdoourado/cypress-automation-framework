@@ -1,5 +1,4 @@
 /// <reference types="cypress" />
-
 describe("aalias and invoke", () => {
 	it("validate a specific hair care product", () => {
 		cy.visit('https://automationteststore.com/');

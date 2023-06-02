@@ -1,5 +1,4 @@
 /// <reference types="cypress" />
-
 describe("inspect item in automation test store website", () => {
 	it("happy path with item text", () => {
 		cy.visit("https://automationteststore.com/");
